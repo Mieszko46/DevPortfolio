@@ -8,8 +8,7 @@ char hostpass[32] = "fx73host";
 char wordpass[32] = "fx73pass";
 char scorepass[32] = "fx73scor";
 char clearpass[32] = "fx73clear";
-// TODO read word from file in random line
-char word[32] = "jablko";
+char word[32];
 bool bStart = true;
 int hostid = 0;
 

@@ -11,7 +11,7 @@
 #include <sys/types.h>
 #include <signal.h>
 #include <stdbool.h>
-// #include <time.h>
+#include <time.h>
 #include "string.c"
 
 #define MAX_CLIENTS 10

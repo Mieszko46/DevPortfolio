@@ -185,7 +185,6 @@ class PaintApp(MDApp):
                     # print("dostarczony color", message)
                     # print("color", self.canvas_widget.color)
                     self.canvas_widget.receivedcolor = True
-                    # TODO temoporary solution later we can dependence it with drawing host 
                     if message != self.canvas_widget.color:
                         self.canvas_widget.set_color(message)
                     self.canvas_widget.receivedcolor = False
