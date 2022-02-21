@@ -4,7 +4,7 @@ This is a graphical project. Represents an skeletal animation made in OpenGL. Th
 <p align="center">
   <img src="https://github.com/Mieszko46/DevPortfolio/blob/main/Skeletal%20animation/gallery/skeleton_sample.gif" width="680" height="500">
 </p>
-
+<br></br>
 ## Programming features
 - **C++**
 - **Visual Studio 19**
