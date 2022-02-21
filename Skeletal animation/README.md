@@ -17,3 +17,4 @@ This is a graphical project. Represents an skeletal animation made in OpenGL. Th
 ## How to run?
 If you have all libraries (remember to add them in *C/C++* and *linker* properties in VS project settings) just run code and everything should work.
 
+![Alt text](https://github.com/Mieszko46/DevPortfolio/blob/main/Skeletal%20animation/gallery/skeleton_sample.gif)
