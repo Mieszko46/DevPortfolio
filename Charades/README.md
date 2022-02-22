@@ -9,7 +9,7 @@ The round ends in the moment when someone guesses the word. Then person why gues
 Game ends when each person has already been a host. The player with the most points wins.
 
 <p align="center">
-  <img src="https://github.com/Mieszko46/DevPortfolio/blob/main/Charades/gallery/charades_sample.gif" width="680" height="500">
+  <img src="https://github.com/Mieszko46/DevPortfolio/blob/main/Charades/gallery/charades_sample.gif" width="860" height="500">
 </p>
 
 ## Programming features
