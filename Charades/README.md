@@ -8,6 +8,10 @@ Next by click button 'Send answer!' written word is displayed in a 'chat' where 
 The round ends in the moment when someone guesses the word. Then person why guessed gets a point and the new round begins i.e. new host and word are choosen. 
 Game ends when each person has already been a host. The player with the most points wins.
 
+<p align="center">
+  <img src="https://github.com/Mieszko46/DevPortfolio/blob/main/Charades/gallery/charades_sample.gif" width="680" height="500">
+</p>
+
 ## Programming features
 - **C** (Server)
 - **Python** (Client)
