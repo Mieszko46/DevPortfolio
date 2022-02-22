@@ -115,7 +115,10 @@ void drawWord()
     }
     
     for (int i = 0; i < line; i++)
+    {
+        bzero(word, 32);
         fgets(word, sizeof(word), fp);
+    }
 
     for (int i = 0; i < sizeof(word); i++)
         if((word[i] > 64 && word[i] < 91) || (word[i] > 96 && word[i] < 123))
