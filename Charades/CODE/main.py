@@ -304,7 +304,7 @@ class PaintApp(MDApp):
         self.root.ids.password.text = f'{self.canvas_widget.word}'
 
     def convertlisttostring(self):
-        self.chatstring += "Ty: " + self.chathistory[-1] + "\n"
+        self.chatstring += "You: " + self.chathistory[-1] + "\n"
 
     def updatechat(self):
         if len(self.chathistory) > 15:
