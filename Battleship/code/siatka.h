@@ -29,6 +29,13 @@ public:		// User declarations
 	void 	setStan(int x, int y, STAN eStan);
 	bool	czyStatekObok(int x, int y);
 
+	int     policz(STAN eStan);
+	bool    getKomorka(STAN eStan, int Index, int &x, int &y);
+
+	int     mozliweStrzaly(int iX, int iY, int r);
+	bool    getStrzal(int iIndex, int iX, int iY, int r, int &iStrzalX, int &iStrzalY);
+
+
 	TSiatka();
 	void clear();
 };

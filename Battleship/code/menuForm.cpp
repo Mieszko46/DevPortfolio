@@ -16,27 +16,18 @@ __fastcall TformMenu::TformMenu(TComponent* Owner)
 
 }
 //---------------------------------------------------------------------------
-void __fastcall TformMenu::startGameClick(TObject *Sender)
-{
-	startGame->Visible = false;
-	Pkomputer->Visible = true;
-	Pgracz->Visible = true;
-}
-//---------------------------------------------------------------------------
 void __fastcall TformMenu::FormCreate(TObject *Sender)
 {
 	formMenu->Height = 900;
 	formMenu->Width = 1200;
 }
 //---------------------------------------------------------------------------
-void TformMenu::stworz(bool bTryb)
+void TformMenu::stworz(TRYB eTryb)
 {
-	TformMain *pForm = new TformMain(this, bTryb);
+	TformMain *pForm = new TformMain(this, eTryb);
 	try
 	{
 		formMenu->Visible = false;
-		pForm->Height = formMenu->Height;
-		pForm->Width = formMenu->Width;
 		pForm->ShowModal();
 	}
 	__finally
@@ -48,16 +39,28 @@ void TformMenu::stworz(bool bTryb)
 //---------------------------------------------------------------------------
 void __fastcall TformMenu::PkomputerClick(TObject *Sender)
 {
-
-	bool bTryb = TRYB_KOMPUTER;
-	stworz(bTryb);
+	stworz(TRYB_KOMPUTER);
 
 }
 //---------------------------------------------------------------------------
 void __fastcall TformMenu::PgraczClick(TObject *Sender)
 {
-	bool bTryb = TRYB_GRACZ;
-	stworz(bTryb);
+	stworz(TRYB_GRACZ);
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TformMenu::PstartClick(TObject *Sender)
+{
+	Pstart->Visible = false;
+	Pkomputer->Visible = true;
+	Pgracz->Visible = true;
+    Pwyjdz->Visible = true;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TformMenu::PwyjdzClick(TObject *Sender)
+{
+    Close();
 }
 //---------------------------------------------------------------------------
 

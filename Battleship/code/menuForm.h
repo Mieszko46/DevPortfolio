@@ -21,18 +21,20 @@ class TformMenu : public TForm
 {
 __published:	// IDE-managed Components
 	TImage *introImg;
-	TLabel *startGame;
 	TPanel *Pkomputer;
 	TPanel *Pgracz;
 	TLabel *Tytul;
-	void __fastcall startGameClick(TObject *Sender);
+	TPanel *Pwyjdz;
+	TPanel *Pstart;
 	void __fastcall FormCreate(TObject *Sender);
 	void __fastcall PkomputerClick(TObject *Sender);
 	void __fastcall PgraczClick(TObject *Sender);
+	void __fastcall PstartClick(TObject *Sender);
+	void __fastcall PwyjdzClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TformMenu(TComponent* Owner);
-	void stworz(bool bTryb);
+	void stworz(TRYB eTryb);
 };
 
 //---------------------------------------------------------------------------
