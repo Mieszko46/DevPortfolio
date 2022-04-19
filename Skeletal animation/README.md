@@ -1,4 +1,4 @@
-## What's it about?
+## What's it about :question:
 This is a graphical project. Represents an skeletal animation made in OpenGL. There is a skeleton which is dancing on the stage and around him are flying colored lights. Model of skeleton was prepared in *Blender* as well as texturing and making animation.
 
 <p align="center">
