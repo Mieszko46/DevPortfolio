@@ -1,3 +1,3 @@
 ## Welcome to my portfolio! :smiley:
 
-**Here you can find most of my projects.** :computer:
+**:computer: Here you can find most of my projects**
