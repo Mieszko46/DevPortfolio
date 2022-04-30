@@ -1,4 +1,4 @@
-## What's it about?
+:thinking: ## What's it about?
 This project is a real-time multiplayer game based on socket programming. This game is a reflection of a popular charades game. 
 One player is chosen as a drawer in in the code, we called such a person 'host'. 
 The host gets a word drawn by the system, which only he can see it and other players can only see length of the word.
