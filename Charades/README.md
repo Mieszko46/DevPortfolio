@@ -17,7 +17,7 @@ Game ends when each person has already been a host. The player with the most poi
 - **Python** (Client)
 - (framework) **Kivy**
 
-## 🌆 Environment requirements
+## ⚙️ Environment requirements
 - operation system -> **Linux**
 - compiler -> **GCC**
 
