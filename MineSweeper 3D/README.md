@@ -10,5 +10,5 @@ Minesweeper 3D is a modern adaptation of the classic Minesweeper game, developed
 - **C++**
 - **Blueprints**
 
-## :video_game: Demo video
+## :video_game: Demo
 https://youtu.be/nvwYH9kYMiw
